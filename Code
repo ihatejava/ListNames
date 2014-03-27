@@ -4,7 +4,10 @@
 	var names = new Array(10);
 	
 	names[0] = "Gustavo Dias";
-	alert("Hello "+ names[0]);
+	names[1] = "Nathan Kreider";
+	for(int i = 0; i < 10; i++) {
+		alert("Hello "+ names[i]);
+	}
 </script>
 
 </html>
